@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.js"
+        integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
+
     <title>Rock, Paper, Scissors, Lizard, Spock</title>
 </head>
 
@@ -17,8 +20,8 @@
     <main>
 
         <div class="combatants-score">
-            <p class="scores">User <span id="score">0</span></p>
-            <p class="scores">Bot <span id="score">0</span></p>
+            <p class="scores">User <span id="userscore">0</span></p>
+            <p class="scores">Bot <span id="botscore">0</span></p>
         </div>
 
 
@@ -28,11 +31,11 @@
             <img id="bot" src="" alt="">
         </div>
         <div id="options">
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
-            <button>Lizard</button>
-            <button>Spock</button>
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <button id="lizard">Lizard</button>
+            <button id="spock">Spock</button>
         </div>
     </main>
 </body>

@@ -19,3 +19,49 @@ header {
     align-items: center;
     padding: 20px;
 }
+
+.combatants-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores {
+    margin: 50px;
+}
+
+.combatants-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player {
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+}
+
+#bot {
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+}
+
+#vs {
+    margin: 50px;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#options button {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}

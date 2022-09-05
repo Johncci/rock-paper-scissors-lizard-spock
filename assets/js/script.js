@@ -13,10 +13,10 @@ $(document).ready(function () {
     let userScore = 0;
     let botScore = 0;
 
-    botScoretext.text("897");
+    botScoretext.text("0");
 
     paper.click(function () {
-        userScoretext.text("10");
+        userScoretext.text("");
     })
 
 

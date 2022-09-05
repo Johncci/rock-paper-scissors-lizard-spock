@@ -15,10 +15,49 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
+
+
+nav ul {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: flex;
+    padding: 0;
+    align-items: center;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+a:hover {
+    color: green;
+    text-decoration: inherit;
+    background-color: transparent;
+}
+
+
+
+.main-content {
+    background: url(../images/main-page-background-image.webp) center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
 
 .combatants-score {
     display: flex;
@@ -28,6 +67,11 @@ header {
 
 .scores {
     margin: 50px;
+    border: 2px solid #0f181e;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
 }
 
 .combatants-zone {
@@ -40,12 +84,14 @@ header {
     height: 250px;
     width: 250px;
     background-color: aliceblue;
+    border-radius: 10px;
 }
 
 #bot {
     height: 250px;
     width: 250px;
     background-color: aliceblue;
+    border-radius: 10px;
 }
 
 #vs {
@@ -64,4 +110,32 @@ header {
     padding: 20px;
     border-radius: 10px;
     width: 150px;
+}
+
+
+.gameplay {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rules-list {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 30px;
 }

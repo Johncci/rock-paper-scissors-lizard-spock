@@ -16,7 +16,11 @@ $(document).ready(function () {
     botScoretext.text("0");
 
     paper.click(function () {
-        userScoretext.text("");
+        userScoretext.text("99");
+    })
+
+    spock.click(function () {
+        botScoretext.text("45");
     })
 
 

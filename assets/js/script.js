@@ -46,7 +46,7 @@ $(document).ready(function () {
     function playBotTurn() {
         let random = Math.floor(Math.random() * 5);
         let randomOptionImage = getOptionImage(random);
-        bot.attr("id", randomOptionImage);
+        bot.attr("src", randomOptionImage);
 
     }
 

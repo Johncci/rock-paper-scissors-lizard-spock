@@ -10,29 +10,35 @@ body {
     color: black;
     font-family: lato, sans-serif;
     font-weight: 300;
-    background-color: #ff69b4;
+    background-color: #628395;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
+
 
 
 nav ul {
     list-style-type: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 3px;
     display: flex;
     flex-direction: column;
     padding: 10px;
     align-items: center;
-    background-color: #00ffff;
+    background-color: #BCC1BA;
     border-radius: 10px;
 
+}
+
+#hamburger-icon {
+    width: 80px;
+    height: 80px;
 }
 
 a {
@@ -49,7 +55,7 @@ a:hover {
 
 
 .main-content {
-    background-color: #00ffff;
+    background-color: #BCC1BA;
     background-repeat: no-repeat;
     overflow: hidden;
     width: 100%;
@@ -95,8 +101,8 @@ a:hover {
 }
 
 #vs {
-    margin: 50px;
-    font-size: 2rem;
+    margin: 35px;
+    font-size: 1rem;
 }
 
 #options {
@@ -148,16 +154,31 @@ a:hover {
 
 
 .gameplay {
-    height: 700px;
+    height: 85vh;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    background-color: #BCC1BA;
+}
+
+.instruction {
+    display: flex;
     align-items: center;
-    background-color: #00ffff;
+    justify-content: center;
+    background-color: #BCC1BA;
+    padding-top: 30px;
+
+}
+
+.instruction p {
+    padding-top: 30px;
+    font-size: 25px;
 }
 
 .rules-list {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 30px;
 
 }
 
@@ -188,5 +209,6 @@ footer .copyright {
         height: 100px;
         width: 100px;
     }
+
 
 }

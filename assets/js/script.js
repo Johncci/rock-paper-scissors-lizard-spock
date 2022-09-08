@@ -43,6 +43,8 @@ $(document).ready(function () {
         playBotTurn();
     });
 
+
+
     function playBotTurn() {
         let random = Math.floor(Math.random() * 5);
         let randomOptionImage = getOptionImage(random);
@@ -66,6 +68,22 @@ $(document).ready(function () {
                 return "";
         }
 
+    }
+
+    let menu = document.getElementById("menu");
+    let hamburger = document.getElementById("hamburger-icon");
+
+    hamburger.onclick = () => {
+        console.log("hello")
+        toggleMenu()
+    }
+
+    function toggleMenu() {
+        if (menu.style.display == "none") {
+            menu.style.display = "flex";
+        } else {
+            menu.style.display = "none"
+        }
     }
 
 

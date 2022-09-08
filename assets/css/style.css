@@ -22,16 +22,32 @@ header {
 
 
 
-nav ul {
+header>#menu {
+    width: 200px;
+    min-height: 200px;
+    position: absolute;
+    background-color: #628395;
+    top: 80px;
+    right: 10px;
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#menu ul {
     list-style-type: none;
     font-size: 25px;
     font-weight: bold;
     letter-spacing: 3px;
     display: flex;
     flex-direction: column;
+    line-height: 40px;
     padding: 10px;
     align-items: center;
-    background-color: #BCC1BA;
+    background-color: aliceblue;
     border-radius: 10px;
 
 }
